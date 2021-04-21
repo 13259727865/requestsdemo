@@ -1,0 +1,5 @@
+allure-pytest
+pytest
+pytest-testconfig
+requests
+urllib3

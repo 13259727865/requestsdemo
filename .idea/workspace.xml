@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a98f5bab-05b3-4a8f-9745-c8e3338c8f5a" name="Default" comment="" />
+    <list default="true" id="a98f5bab-05b3-4a8f-9745-c8e3338c8f5a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/httpclient.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/httpclient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/weather_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/weather_test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +18,8 @@
       <file leaf-file-name="httpclient.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/httpclient.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="482">
+              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
               <folding>
                 <element signature="e#60#75#0" expanded="true" />
               </folding>
@@ -26,8 +30,11 @@
       <file leaf-file-name="weather_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testcase/weather_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            <state relative-caret-position="440">
+              <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+              <folding>
+                <element signature="e#60#89#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,6 +47,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -55,6 +65,7 @@
     <option name="width" value="1285" />
     <option name="height" value="866" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -99,6 +110,46 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python tests.py.test for weather_test.TestWeather.test_2">
+    <configuration name="py.test for weather_test.TestWeather.test_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="requestsdemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;weather_test.TestWeather.test_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test for weather_test.TestWeather.test_2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="requestsdemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;weather_test.TestWeather.test_2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.py.test for weather_test.TestWeather.test_1" />
+      <item itemvalue="Python tests.py.test for weather_test.TestWeather.test_2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.py.test for weather_test.TestWeather.test_2" />
+        <item itemvalue="Python tests.py.test for weather_test.TestWeather.test_1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -110,20 +161,60 @@
       <option name="presentableId" value="Default" />
       <updated>1618984514498</updated>
     </task>
+    <task id="LOCAL-00001" summary="接口集成jenkins">
+      <created>1618986581530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618986581530</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="py_test_for_weather_test_TestWeather_test_1 - 2021.04.21 at 14h 50m 54s.xml">
+      <configuration name="py.test for weather_test.TestWeather.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_weather_test_TestWeather_test_1 - 2021.04.21 at 14h 51m 29s.xml">
+      <configuration name="py.test for weather_test.TestWeather.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_weather_test_TestWeather_test_1 - 2021.04.21 at 14h 52m 25s.xml">
+      <configuration name="py.test for weather_test.TestWeather.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_weather_test_TestWeather_test_1 - 2021.04.21 at 14h 53m 36s.xml">
+      <configuration name="py.test for weather_test.TestWeather.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_weather_test_TestWeather_test_1 - 2021.04.21 at 14h 54m 07s.xml">
+      <configuration name="py.test for weather_test.TestWeather.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_weather_test_TestWeather_test_1 - 2021.04.21 at 15h 00m 59s.xml">
+      <configuration name="py.test for weather_test.TestWeather.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_weather_test_TestWeather_test_1 - 2021.04.21 at 15h 06m 50s.xml">
+      <configuration name="py.test for weather_test.TestWeather.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_weather_test_TestWeather_test_1 - 2021.04.21 at 15h 12m 38s.xml">
+      <configuration name="py.test for weather_test.TestWeather.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_weather_test_TestWeather_test_1 - 2021.04.21 at 15h 13m 08s.xml">
+      <configuration name="py.test for weather_test.TestWeather.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_weather_test_TestWeather_test_2 - 2021.04.21 at 15h 13m 23s.xml">
+      <configuration name="py.test for weather_test.TestWeather.test_2" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="567" y="120" width="1285" height="866" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24218124" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15911485" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.26143792" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -138,11 +229,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="接口集成jenkins" />
+    <option name="LAST_COMMIT_MESSAGE" value="接口集成jenkins" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/base/httpclient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="482">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
           <folding>
             <element signature="e#60#75#0" expanded="true" />
           </folding>
@@ -151,8 +246,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/weather_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="440">
+          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="e#60#89#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

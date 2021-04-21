@@ -2,12 +2,12 @@
 # -*-coding:utf-8 -*-
 
 #Author:Gemini
+from unittest import TestCase
 import allure
-
 from base.httpclient import HttpClient
 
 
-class Weather:
+class TestWeather():
 	def setup(self):
 		self.host='http://www.weather.com.cn'
 		self.ep_path = '/data/cityinfo'
@@ -30,7 +30,7 @@ class Weather:
 		self._test(city_code,exp_city)
 
 	def _test(self,city_code,exp_city):
-		url = f'{self.host}{self.ep_path}{city_code}.html'
+		url = f'{self.host}{self.ep_path}/{city_code}.html'
 		response = self.client.Get(url)
 		act_city = response.json()['weatherinfo']['city']
-		self.assertEqual(exp_city,act_city,f'期待{exp_city},实际{act_city}')
+		assert exp_city == act_city
